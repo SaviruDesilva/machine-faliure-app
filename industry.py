@@ -34,7 +34,7 @@ st.title("🛠️ Industrial Machine Failure Prediction")
 #2.LOAD DATA
 st.subheader("Dataset Preview")
 
-df = pd.read_csv('industry/industry.csv') 
+df = pd.read_csv('industry.csv') 
 st.dataframe(df.head())
 
 #3.SHOW STATISTICS
